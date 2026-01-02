@@ -1,16 +1,19 @@
 # pysqueeze
 
-High-quality image compression for Python, inspired by TinyPNG and Squoosh.
-Designed for developers who want small file sizes with minimal visual loss, both from Python code and the command line.
+**pysqueeze** is a high-quality image compression library for Python, inspired by tools like **TinyPNG** and **Squoosh**.
+It focuses on achieving **significant file size reduction** while preserving perceptual image quality.
 
-## Features
-- JPG / PNG → WebP / AVIF
-- Perceptual image compression
-- Target file size compression (TinyPNG-like)
+The library is designed for developers who need reliable, automated image optimization for web, mobile, and backend pipelines.
+
+
+## Key Features
+- Convert JPG and PNG images to **WebP** or **AVIF**
+- Perceptual compression with sensible defaults
+- Target file size compression (TinyPNG-like behavior)
 - Automatic format selection (WebP vs AVIF)
-- Metadata stripping by default
-- CLI and Python API
-- Cross-platform (Windows, macOS, Linux)
+- Metadata stripping for smaller output files
+- Simple Python API and command-line interface
+- Cross-platform support (Windows, macOS, Linux)
 
 ## Install
 ```bash
