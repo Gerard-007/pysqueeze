@@ -76,6 +76,6 @@ pysqueeze input.jpg -o output --mode auto
 MIT License
 ```
 
-# Project Status
+### Project Status
 `pysqueeze` is actively developed and suitable for production use.
 Contributions, issues, and feature requests are welcome.

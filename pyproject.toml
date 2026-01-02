@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pysqueeze"
-version = "0.2.0"
+version = "0.1.0"
 description = "High-quality image compression like TinyPNG and Squoosh"
 authors = [{ name = "Gerard Nwazk", email = "gerardnwazk@hotmail.com" }]
 requires-python = ">=3.10"
