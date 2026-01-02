@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysqueeze"
+version = "0.1.0"
+description = "High-quality image compression like TinyPNG and Squoosh"
+authors = [{ name = "Your Name" }]
+dependencies = [
+    "Pillow>=12.0.0",
+    "pillow-avif-plugin>=1.4.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+pysqueeze = "pysqueeze.cli:main"
