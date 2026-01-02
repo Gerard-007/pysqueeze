@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0
+## 0.2.0
 - Initial release
 - WebP and AVIF compression
 - CLI support

@@ -1,6 +1,6 @@
-from .compressor import compress_image
+from .compressor import compress
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
-__all__ = ["compress_image", "__version__"]
+__all__ = ["compress", "__version__"]
 

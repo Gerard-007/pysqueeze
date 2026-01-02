@@ -14,6 +14,8 @@ def test_cli_webp(temp_image_dir, tmp_path):
             str(input_path),
             "-o",
             str(output_path),
+            "--mode",
+            "standard",
         ],
         capture_output=True,
         text=True,
@@ -21,4 +23,4 @@ def test_cli_webp(temp_image_dir, tmp_path):
 
     assert result.returncode == 0
     assert output_path.exists()
-
+    assert output_path.stat().st_size > 0
